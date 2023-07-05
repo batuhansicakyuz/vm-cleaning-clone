@@ -1,0 +1,119 @@
+  .backgroundmain{
+    background-color: #152C42;
+  }
+
+  .center {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    background-color: #152C42;
+    color: white;
+  }
+
+  .example-button-row {
+    display: table-cell;
+    max-width: 600px;
+  }
+
+
+  section {
+    display: table;
+  }
+
+  .h5{
+    color: white;
+  }
+
+  .elementor-heading-title{
+    font-family: 'Oswald' , sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+  }
+
+  .elementor-heading-title2{
+    font-family: 'Oswald' , sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  section {
+    display: table;
+  }
+
+  .example-button-row {
+    display: table-cell;
+    max-width: 600px;
+    background-color: red;
+  }
+
+  .mat-raised-button{
+    background-color:red;
+  }
+
+  .change{
+    display: inline-block;
+      width: 150px;
+      text-align: left;
+  }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 8px 11px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  background-color: #E6BB8E;
+  color: black;
+
+}
+
+
+
+.topnav-centered a {
+  position: fixed;
+  background-color: #E6BB8E;
+  left: 26.35%;
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+.leftlink{
+position:relative;
+  background-color: #E6BB8E;
+  left: 12.35%;
+}

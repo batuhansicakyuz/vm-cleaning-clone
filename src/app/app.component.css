@@ -1,0 +1,28 @@
+:body {
+  font-style: italic;
+
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.h5{
+float: center;
+    width: 100%;
+}
+
+/*h.thick {
+  font-weight: bold;
+}*/
+
+.demo-header {
+  display: flex;
+  justify-content: center;
+  min-height: 50px;
+}
+
+.bold {
+font-weight: bold;
+}
